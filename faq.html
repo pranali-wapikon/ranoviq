@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently asked questions about Ranoviq Technologies - IT services, website development, and digital solutions.">
+    <meta name="keywords" content="Ranoviq Technologies, FAQ, IT services, website development, Nagpur">
+    <meta name="author" content="Ranoviq Technologies">
+    <title>FAQ | Ranoviq Technologies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-hero { padding: 6rem 0 3rem; text-align: center; }
+        .page-hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .page-hero p { color: var(--gray); }
+        .page-content { padding: 2rem 0 4rem; }
+        .page-content .container { max-width: 800px; }
+        .faq-list { display: flex; flex-direction: column; gap: 1rem; }
+        .faq-item {
+            background: var(--dark-tertiary);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .faq-item:active {
+            border-color: rgba(110, 44, 253, 0.4);
+            box-shadow: 0 4px 16px rgba(110, 44, 253, 0.12);
+        }
+        @media (hover: hover) {
+            .faq-item:hover {
+                transform: translateY(-4px);
+                border-color: rgba(110, 44, 253, 0.5);
+                box-shadow: 0 8px 24px rgba(110, 44, 253, 0.15);
+            }
+        }
+        .faq-item h3 { font-size: 1.1rem; color: var(--white); margin-bottom: 0.5rem; }
+        .faq-item p { font-size: 0.95rem; color: var(--gray); line-height: 1.7; }
+        .legal-content h2 { font-size: 1.35rem; color: var(--white); margin: 2rem 0 0.75rem; }
+        .legal-content p, .legal-content ul { color: var(--gray); margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.8; }
+        .legal-content ul { padding-left: 1.5rem; }
+        .legal-content li { margin-bottom: 0.35rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--primary-light); margin-bottom: 2rem; }
+        .back-link:hover { color: var(--primary); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo%20color.png" alt="Ranoviq Technologies" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#process" class="nav-link">Process</a></li>
+                <li><a href="index.html#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Frequently Asked Questions</h1>
+                <p>Quick answers about our services and how we work</p>
+            </div>
+        </section>
+        <section class="page-content">
+            <div class="container">
+                <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>What services does Ranoviq Technologies offer?</h3>
+                        <p>We offer website development, mobile app development, IT consultancy, digital marketing, SEO optimization, cloud solutions, and ongoing technical support. We are a Udyam registered Micro Enterprise based in Nagpur, Maharashtra.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How can I get a free consultation?</h3>
+                        <p>You can reach us via the contact form on our website, by email, or by phone. We will respond promptly to discuss your requirements and provide a no-obligation consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you work with businesses outside Nagpur?</h3>
+                        <p>Yes. We serve clients across India and can work remotely. We use modern collaboration tools to ensure smooth communication and delivery regardless of location.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What is your typical project timeline?</h3>
+                        <p>Timelines depend on project scope. A simple website may take a few weeks; larger applications or custom solutions are estimated after we understand your needs. We will provide a clear timeline during the consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you provide support after launch?</h3>
+                        <p>Yes. We offer maintenance and support packages so your website or application stays secure, updated, and performing well after launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <img src="assets/images/logo%20white%20text.png" alt="Ranoviq Technologies" class="footer-logo-img">
+                        </a>
+                        <p class="footer-desc">Udyam Registered Micro Enterprise (UDYAM-MH-20-0325194). Computer programming, IT consultancy, website development & digital solutions. Nagpur, Maharashtra.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="index.html#portfolio">Portfolio</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Follow Us</h4>
+                        <div class="footer-social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Ranoviq Technologies. Udyam Reg. No. UDYAM-MH-20-0325194. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="js/script.js"></script>
+</body>
+</html>
